@@ -1,2 +1,3 @@
-require ::File.expand_path('../config/environment',  __FILE__)
-run game_of_afterlife::Application
+require ::File.expand_path('../game_of_afterlife.rb',  __FILE__)
+run Sinatra::Application
+# run game_of_afterlife::Application
